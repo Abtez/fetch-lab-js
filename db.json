@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Dracula Untold",
+      "content": "This is an awesome movie.",
+      "image": "https://res.cloudinary.com/buildsoko-images/image/upload/v1641596820/wkwcjpy1paggajs735tm.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Glass House",
+      "content": "Houses you don't get so see everyday.",
+      "image": "https://res.cloudinary.com/buildsoko-images/image/upload/v1641742383/nb8lkijjibknyoff7twp.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Funny Meme",
+      "content": "Did you say something.... Nevermind",
+      "image": "https://res.cloudinary.com/buildsoko-images/image/upload/v1649754382/epqvu07e78pr6hlxmqom.jpg"
+    }
+  ]
+}
