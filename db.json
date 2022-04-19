@@ -17,6 +17,12 @@
       "title": "Funny Meme",
       "content": "Did you say something.... Nevermind",
       "image": "https://res.cloudinary.com/buildsoko-images/image/upload/v1649754382/epqvu07e78pr6hlxmqom.jpg"
+    },
+    {
+      "title": "Cat",
+      "content": "Funny Cat",
+      "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.wired.com%2Fphotos%2F5e1e646743940d0008009167%2F1%3A1%2Fw_1533%2Ch_1533%2Cc_limit%2FScience_Cats-84873657.jpg&imgrefurl=https%3A%2F%2Fwww.wired.com%2Fstory%2Fcats-australia-bushfires%2F&tbnid=How7WGLm_865_M&vet=12ahUKEwj-2uqqup_3AhUQfBoKHeZJB4YQMygEegUIARDaAQ..i&docid=Hh0tWSWY7fX6KM&w=1533&h=1533&q=cats&ved=2ahUKEwj-2uqqup_3AhUQfBoKHeZJB4YQMygEegUIARDaAQ",
+      "id": 4
     }
   ]
 }

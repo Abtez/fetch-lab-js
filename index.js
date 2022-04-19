@@ -1,3 +1,5 @@
+document.querySelector('#form').addEventListener('submit', handleSubmit)
+
 const url = 'http://localhost:3000/posts'
 
 function renderOnePost(post){
@@ -27,6 +29,28 @@ function loadData(){
 }
 loadData()
 
+function addPost(articleObj){
+    console.log(articleObj);
+    fetch(url, {method: 'POST', headers: {
+        'Content-type': 'application/json'
+    },
+    body: JSON.stringify(articleObj)
+  })
+  . then(res => res.json)
+  .then(data => console.log(data))
+}
+
+
+function handleSubmit(e){
+    e.preventDefault()
+    let articleObj = {
+        title: e.target.title.value,
+        content: e.target.content.value,
+        image: e.target.image.value,
+    }
+    renderOnePost(articleObj)
+    addPost(articleObj)
+}
 
 
 
