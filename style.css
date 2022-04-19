@@ -40,15 +40,15 @@ button{
 }
 
 .img{
-    width: 270px;
-    height: 270px;
+    width: 280px;
+    height: 280px;
     padding: 0px 15px;
 }
 
-.like{
+.edit{
     background-color: green;
 }
 
-.dislike{
+.delete{
     background-color: red;
 }
